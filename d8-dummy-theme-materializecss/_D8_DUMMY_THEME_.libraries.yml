@@ -1,0 +1,35 @@
+vendorstyle:
+    version: VERSION
+    css:
+        theme:
+            vendor/materialize/materialize.min.css: {}
+            
+    js:
+        vendor/js/materialize.min.js: {}
+    
+    dependencies:
+        - core/jquery
+        
+base:
+    version: VERSION
+    css:
+        theme:
+            css/my.css: {}
+            css/breakpoint-adjust.css: {}
+          
+    js:
+        js/my.js: {}
+    
+        
+font:
+    version: 4.3.0
+    css:
+        theme:
+            vendor/font-awesome/css/font-awesome.min.css: {}
+            
+googlefonts:
+    css:
+        theme:
+            '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300': { type: external, minified: true }
+            '//fonts.googleapis.com/css?family=BenchNine' : { type: external, minified: true }
+            
